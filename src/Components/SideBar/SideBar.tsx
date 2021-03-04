@@ -19,7 +19,7 @@ const SideBar = () => {
             <ul className={style.sideBarUL} >
                   <h1  className={style.sideBarItem} >{title ? 'Sociella' : 'S'}</h1>
                 <li className={style.sideBarItem} ><a title='Home' href='#' > <HomeIcon htmlColor='white' /></a></li>
-                <li className={style.sideBarItem} ><a title='Profile' href='#' > <AccountCircleIcon htmlColor='white'  /></a></li>
+                <li className={style.sideBarItem} ><a title='Profile' href='/Profile' > <AccountCircleIcon htmlColor='white'  /></a></li>
                 <li className={`${style.sideBarItem} ${style.github}`} ><a title='Click to see the source code' target='_blank' href='https://github.com/HaseebAHMED-afk/LinuxStyleSocialApp' > <GitHubIcon htmlColor='white'  /></a></li>
                 <li className={`${style.sideBarItem} ${style.githubProfile}`} ><a title='Click to see my developer profile' target='_blank' href='https://github.com/HaseebAHMED-afk/' > <GitHubIcon htmlColor='white'  /></a></li>
 

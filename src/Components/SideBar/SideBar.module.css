@@ -35,12 +35,12 @@
   cursor: pointer;
 }
 .github{
-    position: absolute;/*Add position absolute*/
-    bottom: 35px;/*Add bottom at 0*/
-    width: 100%;/*Set width to 100%*/
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
 }
 .githubProfile{
-    position: absolute;/*Add position absolute*/
-    bottom: 0;/*Add bottom at 0*/
-    width: 100%;/*Set width to 100%*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
