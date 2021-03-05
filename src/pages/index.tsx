@@ -10,6 +10,9 @@ export default function Home() {
       <SideBar />
       <div className={style.homepage} >
       <Postcard />
+      <Postcard />
+      <Postcard />
+      <Postcard />
       </div>
       
     </div>

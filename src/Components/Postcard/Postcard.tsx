@@ -8,9 +8,14 @@ import { Button } from '@material-ui/core'
 const Postcard = () => {
 
     let [likes , setLikes] = useState(0)
+    let [dislikes , setDislikes] = useState(0)
 
     const handleLikeButton = () =>{
         setLikes(likes + 1)
+    }
+
+    const handleDislikeButton = () =>{
+        setDislikes(dislikes+1)
     }
 
     return (
@@ -37,8 +42,8 @@ const Postcard = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error similique porro eum expedita dolorum at cumque, tempora magnam excepturi, molestias quidem iste saepe! Pariatur at, libero porro eligendi quis similique?</p>
             </div>
             <div className={style.cardFooter} >
-                <Button onClick={handleLikeButton} ><ThumbUpIcon className={style.icon} htmlColor='white' /><span className={style.span} >{likes}</span></Button>
-                <Button><ThumbDownIcon className={style.icon} htmlColor='white' /></Button>            
+                <Button onClick={handleLikeButton} ><ThumbUpIcon className={style.icon} htmlColor='white' /><span className={style.span} >{likes === 0 ? (null):(likes)}</span></Button>
+                <Button onClick={handleDislikeButton} ><ThumbDownIcon className={style.icon} htmlColor='white' /><span className={style.span} >{dislikes === 0 ? (null) : (dislikes)}</span></Button>            
                 </div>
             
         </div>

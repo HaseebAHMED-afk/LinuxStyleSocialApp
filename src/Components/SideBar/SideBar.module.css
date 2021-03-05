@@ -38,6 +38,12 @@ ul h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
 }
+.hidelogbtn{
+  opacity: 0;
+}
+.showlogbtn{
+  opacity: 1;
+}
 .github{
     position: absolute;
     bottom: 35px;
