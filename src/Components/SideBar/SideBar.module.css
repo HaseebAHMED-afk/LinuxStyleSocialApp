@@ -12,6 +12,10 @@
   left: 0;
   overflow-x: hidden;
 }
+
+ul h1{
+  transition: all 0.3s ease-in-out;
+}
 .sideBar:hover{
     width: 250px;
 }
@@ -43,4 +47,28 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+@media only screen and (max-width:700px){
+ .sideBar{
+   flex-direction: row;
+   width: 100%;
+  height: 50px;
+ }
+ .sideBar:hover{
+  height: 150px;
+  width: 100%;
+}
+ .sideBarUL{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .github{
+  position: relative;
+  bottom: 0px;
+}
+.githubProfile{
+  position: relative
+}
 }
