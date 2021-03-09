@@ -1,6 +1,6 @@
 import React from "react"
-import Postcard from "../Components/Postcard/Postcard"
-import SideBar from "../Components/SideBar/SideBar"
+import Postcard from "../../Components/Postcard/Postcard"
+import SideBar from "../../Components/SideBar/SideBar"
 //@ts-ignore
 import style from './global.module.css'
 
