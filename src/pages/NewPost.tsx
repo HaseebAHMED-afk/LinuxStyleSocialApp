@@ -1,10 +1,10 @@
 import React from 'react'
-import SideBar from '../../Components/SideBar/SideBar'
+import SideBar from '../Components/SideBar/SideBar'
 //@ts-ignore
-import style from './NewPost.module.css'
+import style from './Global.module.css'
 import * as Yup from 'yup'
 import { Form, Formik } from 'formik'
-import FormField from '../../Components/Utils/FormField'
+import FormField from '../Components/Utils/FormField'
 import { Button } from '@material-ui/core'
 
 interface PostFormValues {
@@ -14,7 +14,7 @@ interface PostFormValues {
 
 const NewPost = () => {
 
-    const postInitialValues = {
+    const postInitialValues: PostFormValues = {
         title: '',
         post: ''
     }

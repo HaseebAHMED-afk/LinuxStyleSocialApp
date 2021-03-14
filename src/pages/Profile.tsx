@@ -1,7 +1,7 @@
 import React from 'react'
-import SideBar from '../../Components/SideBar/SideBar'
+import SideBar from '../Components/SideBar/SideBar'
 //@ts-ignore
-import style from './Profile.module.css'
+import style from './Global.module.css'
 
 const Profile = () => {
     return (

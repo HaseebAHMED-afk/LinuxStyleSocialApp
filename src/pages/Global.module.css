@@ -1,3 +1,4 @@
+
 .profile{
     text-align: center;
 }
@@ -30,5 +31,14 @@
 }
 
 .userJoinDate,.userCountry,.likesRecieved,.userName,.userRealName,.userFollwers{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.newPostPage{
+    text-align: center;
+    margin: auto;
+    padding: 150px;
+}
+.PostPageMainHeader{
+    margin: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

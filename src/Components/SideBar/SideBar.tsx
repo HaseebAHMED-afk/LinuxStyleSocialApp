@@ -22,9 +22,9 @@ const SideBar = () => {
             <ul className={style.sideBarUL} >
                   <h1  className={style.sideBarItem} >{title ? 'Sociella' : 'S'}</h1>
                 <li className={style.sideBarItem} ><a title='Home' href='/' > <HomeIcon className={style.icon} htmlColor='white' /></a></li>
-                <li className={style.sideBarItem} ><a title='Profile' href='/Profile/Profile' > <AccountCircleIcon className={style.icon} htmlColor='white'  /></a></li>
-                <li className={style.sideBarItem} ><a title='Create a new post' href='/NewPost/NewPost' > <PostAddIcon className={style.icon} htmlColor='white'  /></a></li>
-                <li className={style.sideBarItem} ><a title='View All My Post' href='/MyPost/MyPosts' > <LibraryBooksIcon className={style.icon} htmlColor='white'  /></a></li>
+                <li className={style.sideBarItem} ><a title='Profile' href='/Profile' > <AccountCircleIcon className={style.icon} htmlColor='white'  /></a></li>
+                <li className={style.sideBarItem} ><a title='Create a new post' href='/NewPost' > <PostAddIcon className={style.icon} htmlColor='white'  /></a></li>
+                <li className={style.sideBarItem} ><a title='View All My Post' href='/MyPosts' > <LibraryBooksIcon className={style.icon} htmlColor='white'  /></a></li>
                 <li className={`${style.sideBarItem} ${title ?  style.showlogbtn  : style.hidelogbtn } `} ><Button variant='outlined' color='primary' >Log In</Button></li>
                 <li className={`${style.sideBarItem} ${title ?  style.showlogbtn  : style.hidelogbtn }`} ><Button variant='outlined' color='secondary'  >Sign Up</Button></li>
                 <li className={`${style.sideBarItem} ${style.github}`} ><a title='Click to see the source code' target='_blank' href='https://github.com/HaseebAHMED-afk/LinuxStyleSocialApp' > <GitHubIcon className={style.icon} htmlColor='white'  /></a></li>
