@@ -47,22 +47,30 @@ const CreateProfile = () => {
     }
 
     return (
- <div>
+ <div className={styles.profilePage} >
+     <h1 className={styles.profileHeading} >Create a catchy profile</h1>
      <Formik 
      initialValues={ProfileInitialValues}
      validationSchema={ProfileValidationSchema}
      onSubmit={ProfileOnSubmit}
      >
 
-        <Form>
             {
-                () => {
+                () => (
                     <Form>
                         <FormField name='firstName' label='First Name' type='text' multiline={false} />
+                        <FormField name='lastName' label='Last Name' type='text' multiline={false} />
+                        <FormField name='userName' label='User Name' type='text' multiline={false} />
+                        <FormField name='age' label='Age' type='number' multiline={false} />
+                        <FormField name='country' label='Country' type='text' multiline={false} />
+                        <FormField name='firstName' label='First Name' type='text' multiline={false} />
+                        <FormField name='stateOrProvince' label='State or Province' type='text' multiline={false} />
+                        <FormField name='city' label='City' type='text' multiline={false} />
+                        <FormField name='profession' label='Profession' type='text' multiline={false} />
+                        <Button variant='contained' color='primary' type='submit' className={styles.profileBtn} >Create my Profile</Button>
                     </Form>
-                }
+    )
             }
-        </Form>
      </Formik>
         </div>
     )

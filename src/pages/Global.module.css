@@ -42,3 +42,15 @@
     margin: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.profilePage{
+    text-align: center;
+}
+.profileHeading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:  50px auto;
+}
+
+.profileBtn{
+    
+}
