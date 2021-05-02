@@ -1,6 +1,9 @@
 .login-signup-btns{
     margin-left: auto !important;
 }
+.login-signup-btns button{
+    margin-left: auto;
+}
 .signup-btn{
     margin-left: 10px !important;
 }
