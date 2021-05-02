@@ -15,9 +15,11 @@ const NavBar = () => {
           <Typography><Link to='/You'>You</Link></Typography>
         </div>
         <div className="login-signup-btns">
-          <Button variant="dark">Log In</Button>
+          <Button variant="dark" > <Link to='/LogIn'>Log In</Link> </Button>
           <Button variant="outline-dark" className="signup-btn">
+            <Link to='/SignUp' >
             Sign Up
+            </Link>
           </Button>
         </div>
       </Navbar.Collapse>

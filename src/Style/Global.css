@@ -16,3 +16,7 @@
 .nav-links p{
     margin: 10px;
 }
+.home-input{
+    width: 55% !important;
+    margin: 15px auto !important;
+}
