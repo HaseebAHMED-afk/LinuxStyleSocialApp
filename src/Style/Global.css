@@ -1,0 +1,15 @@
+.login-signup-btns{
+    margin-left: auto !important;
+}
+.signup-btn{
+    margin-left: 10px !important;
+}
+.nav-links{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links p{
+    margin: 10px;
+}
