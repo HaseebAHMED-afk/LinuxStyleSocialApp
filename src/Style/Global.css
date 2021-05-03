@@ -47,3 +47,36 @@ a{
     flex-wrap: wrap;
     justify-content: center;
 }
+.profile-page{
+    text-align: center;
+    margin: 225px 0;
+}
+.profile-avatar{
+    height: 10rem !important;
+    width: 10rem !important ;
+    margin: 25px auto;
+}
+
+.profile-details{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.login-page{
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+.login-heading{
+    margin: 125px auto 10px auto ;
+}
+
+.login-field{
+
+    display: flex !important ;
+    flex-direction: column !important;
+    margin: 15px auto !important;
+    width: 100% !important;
+}
