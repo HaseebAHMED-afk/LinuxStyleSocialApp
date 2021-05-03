@@ -1,13 +1,16 @@
 import React, { useState } from "react"
 import NavBar from "../Components/Navbar"
 import { Jumbotron, Button } from "react-bootstrap"
-import { Field, Form, Formik } from "formik"
-import * as Yup from "yup"
 import { TextField } from "@material-ui/core"
+import { nanoid } from 'nanoid'
+import random from 'random-name'
+import DiaryCard from "../Components/DiaryCard"
 
 interface postValues {
   title: string
   description: string
+  id: string
+  user: string
 }
 
 export default function Home() {
@@ -17,8 +20,10 @@ export default function Home() {
 
   const handleSubmit = async () => {
     const newPost : postValues ={
+      user: `${random.first()} ${random.last()}`,
       title,
-      description
+      description,
+      id: nanoid()
     }
 
     console.log(newPost);
@@ -55,6 +60,8 @@ export default function Home() {
         />
         <Button variant='success' onClick={handleSubmit} >Post</Button>
       </Jumbotron>
+      <DiaryCard />
+      <DiaryCard />
     </div>
   )
 }
