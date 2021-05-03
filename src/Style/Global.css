@@ -80,3 +80,9 @@ a{
     margin: 15px auto !important;
     width: 100% !important;
 }
+
+@media only screen and (max-width: 950px) {
+    .login-page{
+        width: 75%;
+    }
+}
